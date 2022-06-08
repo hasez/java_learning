@@ -1,10 +1,5 @@
 package passingcars;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
 class Solution {
     public int solution(int[] A) {
         int counter = 0;
@@ -48,26 +43,5 @@ class Solution {
             }
         }
         return counter;
-    }
-
-    /**
-     * Obtains an element number from the specified array that matches the specified condition.
-     * 
-     * @param array filter target array.
-     * @param condition filter condition.
-     * @return an element number
-     */
-    private int[] filter(int[] array, int condition) {
-        List<Integer> list = new ArrayList<>();
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == 0) {
-                list.add(i);
-            }
-        }
-        int[] filterArray = new int[list.size()];
-        for (int i = 0; i < list.size(); i++) {
-            filterArray[i] = list.get(i);
-        }
-        return filterArray;
     }
 }

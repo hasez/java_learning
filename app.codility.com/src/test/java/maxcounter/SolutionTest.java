@@ -31,9 +31,7 @@ public class SolutionTest {
                 A[i] = N + 1;
             }
         }
-        int[] expected = { 3, 2, 2, 4, 2 };
-        int[] actual = (new Solution()).solution(N, A);
-        // assertArrayEquals(expected, actual);
+        (new Solution()).solution(N, A);
     }
 
 

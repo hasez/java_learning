@@ -58,7 +58,7 @@ public class SolutionTest {
         BinaryGap binaryGap = new Solution();
         for (int i = 0; i < 5000; i++) {
             long start = System.currentTimeMillis();
-            int actual = binaryGap.solution(i);
+            binaryGap.solution(i);
             long end = System.currentTimeMillis();
             System.out.println(i + ":" + (end - start));
         }

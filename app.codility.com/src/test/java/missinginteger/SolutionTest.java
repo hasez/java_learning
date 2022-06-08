@@ -44,15 +44,13 @@ public class SolutionTest {
     @Test
     public void testSolution_array_all() {
         int[] A = larges;
-        int expected = 5;
-        int actual = (new Solution()).solution(A);
+        (new Solution()).solution(A);
         // assertEquals(expected, actual);
     }
     @Test
     public void testSolution_set_all() {
         int[] A = larges;
-        int expected = 5;
-        int actual = (new Solution()).solution_set(A);
+        (new Solution()).solution_set(A);
         // assertEquals(expected, actual);
     }
 }
