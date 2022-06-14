@@ -1,4 +1,4 @@
-package sort;
+package sorting.intro;
 
 public class Sort {
     public int[] selectionSort(int[] A) {

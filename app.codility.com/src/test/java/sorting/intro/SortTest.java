@@ -1,4 +1,4 @@
-package sort;
+package sorting.intro;
 
 import static org.junit.Assert.assertArrayEquals;
 import org.junit.Before;
