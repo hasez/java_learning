@@ -20,7 +20,8 @@
 	"settings": { 
 		"java.jdt.ls.java.home": "/docker-java-home",
 		"java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
-		"java.format.settings.profile": "GoogleStyle"
+		"java.format.settings.profile": "GoogleStyle",
+		"editor.formatOnSave": true
 	},
 	
 	// Add the IDs of extensions you want installed when the container is created.
