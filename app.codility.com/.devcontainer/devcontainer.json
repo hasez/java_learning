@@ -8,35 +8,31 @@
 			// Update the VARIANT arg to pick a Java version: 11, 17
 			// Append -bullseye or -buster to pin to an OS version.
 			// Use the -bullseye variants on local arm64/Apple Silicon.
-			"VARIANT": "11",
+			"VARIANT": "17",
 			// Options
 			"INSTALL_MAVEN": "false",
 			"INSTALL_GRADLE": "false",
 			"NODE_VERSION": "lts/*"
 		}
 	},
-
 	// Set *default* container specific settings.json values on container create.
-	"settings": { 
+	"settings": {
 		"java.jdt.ls.java.home": "/docker-java-home",
 		"java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
 		"java.format.settings.profile": "GoogleStyle",
 		"editor.formatOnSave": true
 	},
-	
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"vscjava.vscode-java-pack",
 		"github.copilot",
 		"oderwat.indent-rainbow",
+		"tomoki1207.pdf"
 	],
-
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
-
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "java -version",
-
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode"
 }
